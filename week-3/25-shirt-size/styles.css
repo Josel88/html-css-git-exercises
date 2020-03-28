@@ -1,1 +1,4 @@
 /* Add your CSS below */
+.shopping-basket__title {
+  display: none;
+}

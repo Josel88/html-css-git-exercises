@@ -37,7 +37,18 @@
         <div class="checkout">
           <h2 class="checkout__title">Checkout</h2>
           <form method="GET" id="checkout-form" class="checkout__form">
-            <!-- Add the form fields here -->
+            <div>
+              <label for="customer-input">Customer</label>
+              <input id="customer-input" type="text" name="customer-name" />
+            </div>
+            <div>
+              <label for="mail-input">Mail</label>
+              <input id="mail-input" type="text" name="customer-email" />
+            </div>
+            <div>
+              <label for="phone-input">Phone</label>
+              <input id="phone-input" type="text" name="customer-phone" />
+            </div>
 
             <button type="submit">Complete Purchase</button>
           </form>
