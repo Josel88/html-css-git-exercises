@@ -1,1 +1,14 @@
 /* Add your CSS code below */
+.link link--map {
+  background-color: red;
+  text-decoration: bold;
+}
+
+.link link--gif {
+  background-color: red;
+  text-decoration: bold;
+}
+
+.message__time {
+  font-size: 0.9rem;
+}
